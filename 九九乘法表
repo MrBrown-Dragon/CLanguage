@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{int i,j,t;
+for (j=1;j<=9;j++)
+    {{for (i=j;i<=9;i++)
+        {printf("%d*%d=%2d ",j,i,i*j);
+        putchar(' ');}}
+    putchar('\n');
+    for (t=1;t<=j;t++)
+        putchar('\t');}
+  
+  system("PAUSE");	
+  return 0;
+}
