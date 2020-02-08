@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc, char *argv[])
+{   double x;/*float有效数字七位，运算结果会溢出，定义double有效数字15位，能够正确显示*/
+    x=45678.0*56789.0;/*小数位标示出来*/ 
+    printf("45678.0*56789.0=%f\n",x); 
+  system("PAUSE");	
+  return 0;
+}
